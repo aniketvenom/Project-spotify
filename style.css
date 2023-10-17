@@ -1,0 +1,160 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    font-style: bold;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0px 10px;
+   
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0px 20px;
+}
+.container{
+   min-height: 65vh;
+   background-color: black;
+   color: white;
+   display: flex;
+   width: 70%;
+   margin: 20px auto;
+   border-radius: 10px;
+   padding: 34px;
+   background-image: url(./head-phones-1024x684.jpeg);
+}
+
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    bottom: 0px;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.icons{
+  margin-top: 10px;
+}
+
+.icons img{
+    cursor: pointer;
+    
+}
+
+#songrange{
+    justify-content: center;
+    width: 800px;
+    cursor: pointer;
+}
+
+.play{
+    width: 35px;
+   
+    
+}
+.play1{
+    width: 35px;
+    background-color: black;
+    cursor: pointer;
+   
+    
+}
+
+
+
+.next{
+    width: 35px;
+   background-color:black;
+}
+
+.back{
+    width: 35px;
+    background-color: white;
+}
+
+
+.songitem{
+    background-color: white;
+    width: 200%;
+    color: black;
+    display: flex;
+    margin: 10px 0px;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+
+.songitem img{
+    width: 20px;
+    border-radius: 20px;
+    
+}
+
+.right img{
+
+    position: absolute;
+    width: 274px;
+    right: 45vh;
+    top: 29vh;
+    opacity: 0;
+    transition: opacity 0s ease-in;
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#gif{
+    border-radius: 5px;
+}
+
+
+.masterpause{
+    width: 35px;
+   
+    
+}
+
+.pause{
+    width: 35px;
+   
+    
+}
